@@ -1,0 +1,45 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between images */
+    margin-bottom: 20px;
+}
+
+    .image-container img {
+        width: 45%; /* Make images take up less space side by side */
+        height: auto;
+        border-radius: 8px; /* Optional: Adds rounded corners */
+    }
+
+.custom-button {
+    background-color: #ffe6f2;
+    color: black;
+    border: 1px solid #ffcce6;
+}
+
+    .custom-button:hover {
+        background-color: #ffcce6;
+        color: white;
+    }
